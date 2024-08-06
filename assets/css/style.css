@@ -1,15 +1,23 @@
-header{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
-}
-nav {
-background-color: green;
+body {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2, h5 {
-    text-align: center;
+nav {
+	background-color: darkgreen;
+	border-bottom: 10px solid tan;
 }
 
 li {
 	display: inline;
+	position: relative;
+}
+
+h1 {
+	color: darkslategray;
+}
+
+h1,
+h2,
+h5 {
+	text-align: center;
 }
